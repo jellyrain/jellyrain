@@ -53,11 +53,11 @@ live2d_settings['showWelcomeMessage']   = true;         // 显示进入面页欢
 
 //看板娘样式设置
 live2d_settings['waifuSize']            = '280x250';    // 看板娘大小，例如 '280x250', '600x535'
-live2d_settings['waifuTipsSize']        = '250x20';     // 提示框大小，例如 '250x70', '570x150'
+live2d_settings['waifuTipsSize']        = '250x40';     // 提示框大小，例如 '250x70', '570x150'
 live2d_settings['waifuFontSize']        = '12px';       // 提示框字体，例如 '12px', '30px'
 live2d_settings['waifuToolFont']        = '14px';       // 工具栏字体，例如 '14px', '36px'
-live2d_settings['waifuToolLine']        = '20px';       // 工具栏行高，例如 '20px', '36px'
-live2d_settings['waifuToolTop']         = '30px'         // 工具栏顶部边距，例如 '0px', '-60px'
+live2d_settings['waifuToolLine']        = '100px';       // 工具栏行高，例如 '20px', '36px'
+live2d_settings['waifuToolTop']         = '0px'         // 工具栏顶部边距，例如 '0px', '-60px'
 live2d_settings['waifuMinWidth']        = '768px';      // 面页小于 指定宽度 隐藏看板娘，例如 'disable'(禁用), '768px'
 live2d_settings['waifuEdgeSide']        = 'right:30';     // 看板娘贴边方向，例如 'left:0'(靠左 0px), 'right:30'(靠右 30px)
 live2d_settings['waifuDraggable']       = 'unlimited';    // 拖拽样式，例如 'disable'(禁用), 'axis-x'(只能水平拖拽), 'unlimited'(自由拖拽)
@@ -65,7 +65,7 @@ live2d_settings['waifuDraggableRevert'] = true;         // 松开鼠标还原拖
 
 // 其他杂项设置
 live2d_settings['l2dVersion']           = '1.4.2';        // 当前版本
-live2d_settings['l2dVerDate']           = '2018.11.12'; // 版本更新日期
+live2d_settings['l2dVerDate']           = '2020.6.30'; // 版本更新日期
 live2d_settings['homePageUrl']          = 'auto';       // 主页地址，可选 'auto'(自动), '{URL 网址}'
 live2d_settings['aboutPageUrl']         = 'https://www.fghrsh.net/post/123.html';   // 关于页地址, '{URL 网址}'
 live2d_settings['screenshotCaptureName']= 'live2d.png'; // 看板娘截图文件名，例如 'live2d.png'
