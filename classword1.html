@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <link rel="stylesheet" type="text/css" href="css/classword1.css">
+    <link rel="stylesheet" type="text/css" href="css/waifu.css">
+    <script src="js/classword1.js"></script>   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="body">
+        <div class="radio">
+            <div class="image" id="i1">
+                <img src="image/1.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="image/2.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="image/3.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="image/4.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="image/5.jpg" alt="">
+            </div>
+        </div>
+        <div class="label">
+            <label class="bar" onclick="label(0)"></label>
+            <label class="bar" onclick="label(1)"></label>
+            <label class="bar" onclick="label(2)"></label>
+            <label class="bar" onclick="label(3)"></label>
+            <label class="bar" onclick="label(4)"></label>
+        </div>
+    </div>
+    <div class="waifu">
+        <div class="waifu-tips"></div>
+        <canvas id="live2d" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-user"></span>
+        </div>
+    </div>
+    <script src="js/waifu-tips.js"></script>
+    <script src="js/live2d.js"></script>
+    <script type="text/javascript">
+        initModel("js/waifu-tips.json")
+    </script>
+</body>
+</html>
